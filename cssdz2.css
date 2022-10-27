@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background: #E5E5E5;
+}
+a {
+    text-decoration: none;
+}
+.product-wrapper {
+    display: block;
+    float: left;
+    overflow: auto;
+}
+
+@media only screen and (min-width: 1000px) {.product-wrapper {
+        width: 33.333%;
+    }
+}
+
+.product {
+    display: block;
+    position: relative;
+    background: #E0E0E0;
+    margin: 0 30px 30px 0;
+    text-decoration: none;
+    width: 200px;
+    height: 226px;
+}
+.inside {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background: #C4C4C4;
+    text-align: center;
+    margin-left: 35px;
+}
+.img {
+    padding-top: 56px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+.title {
+    text-align: center;
+    position: relative;
+    color: #000000;
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 66px;
+    line-height: 22px;
+}
+.Description {
+    padding-top: 10px;
+    font-size: 10px;
+    text-align: center;
+}
